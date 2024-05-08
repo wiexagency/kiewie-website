@@ -1,12 +1,27 @@
+<script setup>
+const imageSrc = '/images/hero-img.png';
+
+const jsonData = ref(null);
+
+const fetchData = async () => {
+  try {
+    const response = await fetch('/data/service-page.json');
+    jsonData.value = await response.json();
+  } catch (error) {
+    console.error('Error fetching JSON data:', error);
+  }
+};
+
+onMounted(fetchData);
+</script>
+
 <template>
     <div class="w-full flex justify-center items-center mt-6">
         <div class="max-w-6xl">
             <div class="text-center">
-                <h6 class="text-orange-600">OUR SERVICES</h6>
-                <h2 class="text-5xl font-bold mb-4">Our Services</h2>
-                <p class="text-lg">We specialize in lead generation and have developed our own approach and software
-                    platform to efficiently and easily generate relevant leads and activate potential customers via
-                    email and LinkedIn.</p>
+                <h6 class="text-orange-600"> {{ jsonData?.header }} </h6>
+                <h1 class="text-6xl font-bold mb-4"> {{ jsonData?.title }} </h1>
+                <p> {{ jsonData?.content }} </p>
             </div>
         </div>
     </div>

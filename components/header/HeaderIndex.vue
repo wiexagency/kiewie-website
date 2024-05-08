@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header class="py-4 flex justify-between items-center">
+  <header class="ml-48 py-4 flex justify-between items-center">
     <div>
       <img class="float-right" src="/images/logo.png"/>
     </div>
@@ -20,7 +20,7 @@
     </nav>
 
     <div>
-      <button class="bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-full">
+      <button class="mr-48 bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-full">
         Try a monthly trial ->
       </button>
     </div>

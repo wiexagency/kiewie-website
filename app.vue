@@ -1,5 +1,5 @@
 <template>
-<div class="w-full flex justify-center bg-slate-100">
+<div class="w-full flex justify-center">
   <div class="w-65%">
     <HeaderIndex></HeaderIndex>
     <MainPage></MainPage>
