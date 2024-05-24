@@ -2,7 +2,9 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    // fontFamily: {
+    //   'test': ['General Sans'],
+    // }
   },
   plugins: [],
 }

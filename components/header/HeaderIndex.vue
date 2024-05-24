@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header class="ml-48 py-4 flex justify-between items-center">
+  <header class="ml-32 py-4 flex justify-between items-center">
     <div>
       <img class="float-right" src="/images/logo.png"/>
     </div>

@@ -6,6 +6,9 @@
     <Collaborators></Collaborators>
     <ServicesPage></ServicesPage>
     <InfoPage></InfoPage>
+    <TrailBanner></TrailBanner>
+    <CustomerReview></CustomerReview>
+    <br>
   </div>
 </div>
 </template>

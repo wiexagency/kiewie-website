@@ -1,4 +1,6 @@
 <script setup>
+import ConnectView from '~/organism/ConnectView.vue';
+
 const imageSrc = '/images/hero-img.png';
 
 const jsonData = ref(null);
@@ -25,6 +27,6 @@ onMounted(fetchData);
             </div>
         </div>
     </div>
-    <OrganismConnectView :order=true :service_number=1></OrganismConnectView>
-    <OrganismConnectView :order=false :service_number=2></OrganismConnectView>
+    <ConnectView :order=true :service_number=1></ConnectView>
+    <ConnectView :order=false :service_number=2></ConnectView>
 </template>
