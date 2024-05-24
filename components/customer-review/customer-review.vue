@@ -6,7 +6,7 @@ const jsonData = ref(null);
 
 const fetchData = async () => {
   try {
-    const response = await fetch('/data/card_data/infoPage.json');
+    const response = await fetch('/data/customer_data/CustomerPage.json');
     jsonData.value = await response.json();
   } catch (error) {
     console.error('Error fetching JSON data:', error);
@@ -27,8 +27,8 @@ onMounted(fetchData);
     </div>
   </div>
   <div class="mt-10 w-4/5 mx-auto flex justify-between">
-    <ReviewCard :card_number="1" class="mr-4"></ReviewCard>
-    <ReviewCard :card_number="2" class="mx-4"></ReviewCard>
-    <ReviewCard :card_number="3" class="ml-4"></ReviewCard>
+    <div v-for="review in jsonData?.reviews">
+      <ReviewCard :review="review" ></ReviewCard>
+    </div>
   </div>
 </template>

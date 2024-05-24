@@ -1,5 +1,22 @@
 {
     "header": "MORE INFO",
-    "title":"Receive fresh leads daily for a Fixed Monthly Fee.",
-    "content": "Receive fresh leads daily for a fixed monthly fee."
+    "title": "Receive fresh leads daily for a Fixed Monthly Fee.",
+    "content": "Receive fresh leads daily for a fixed monthly fee.",
+    "info_cards": [
+        {
+            "title": "The largest <br> database",
+            "img": "/images/card_icons/info_card-1.png",
+            "content": "With our approach and platform, we have direct access to the largest database of company data in the Benelux. These are not general business addresses, but personal contact details of the right people."
+        },
+        {
+            "title": "The perfect target audience",
+            "img": "/images/card_icons/info_card-2.png",
+            "content": "By combining our analysis of your target audience with the data generated from your lead generation campaigns, you will soon be able to better determine who your ideal customer is. And then we can reach this type of customer even more effectively!"
+        },
+        {
+            "title": "Automate your lead generation",
+            "img": "/images/card_icons/info_card-3.png",
+            "content": "Once we have determined the right strategy, we automate and optimize your marketing for you, so you don't have to worry about it!"
+        }
+    ]
 }

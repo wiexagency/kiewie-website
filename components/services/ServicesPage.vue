@@ -7,7 +7,7 @@ const jsonData = ref(null);
 
 const fetchData = async () => {
   try {
-    const response = await fetch('/data/service-page.json');
+    const response = await fetch('/data/service_data/service-page.json');
     jsonData.value = await response.json();
   } catch (error) {
     console.error('Error fetching JSON data:', error);
@@ -27,6 +27,7 @@ onMounted(fetchData);
             </div>
         </div>
     </div>
-    <ConnectView :order=true :service_number=1></ConnectView>
-    <ConnectView :order=false :service_number=2></ConnectView>
+    <div v-for="service in jsonData?.services">
+      <ConnectView :order=service?.order :service="service"></ConnectView>
+    </div>
 </template>

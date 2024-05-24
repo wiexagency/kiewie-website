@@ -1,5 +1,31 @@
 {
     "header": "HAPPY CUSTOMERS",
-    "title":"This is what customers say about Kiewie",
-    "content": "You can try our service for one month for free — completely without obligation. Want more information about our approach and terms? Sign up now!"
+    "title": "This is what customers say about Kiewie",
+    "content": "You can try our service for one month for free — completely without obligation. Want more information about our approach and terms? Sign up now!",
+    "reviews": [
+        {
+            "name": "Patrick Stooker",
+            "img": "/images/customer_icons/customer_card-1.png",
+            "company": "Pixio Digital",
+            "position": "CEO",
+            "review": "When we started our company, we knew we had a unique concept, but we didn't know exactly which target audience fit this concept. After a few weeks with Kiewie, we suddenly had a clear picture of our target audience and quickly managed to attract a few major clients!",
+            "rating": 4
+        },
+        {
+            "name": "Thomas de Goeij",
+            "img": "/images/customer_icons/customer_card-2.png",
+            "company": "Junea Vending",
+            "position": "CEO",
+            "review": "The platform that Kiewie has developed is very powerful and targeted. It has brought our compact vending machines to the attention with email campaigns that had a higher conversion rate than we ever expected.",
+            "rating": 5
+        },
+        {
+            "name": "Patrick van Echtelt",
+            "img": "/images/customer_icons/customer_card-3.png",
+            "company": "Wiex",
+            "position": "Project manager",
+            "review": "As a startup, it was especially difficult to make ourselves known to companies that were eligible for our service. By using Kiewie, we were able to significantly accelerate that process.  ",
+            "rating": 5
+        }
+    ]
 }

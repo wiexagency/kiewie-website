@@ -1,0 +1,23 @@
+{
+    "header": "OUR SERVICES",
+    "title": "Our Services",
+    "content": "We specialize in lead generation and have developed our own approach and software platform to efficiently and easily generate relevant leads and activate potential customers via email and LinkedIn.",
+    "services":[
+      {
+        "order": true,
+        "header": "",
+        "title": "Email",
+        "content": "Activating email campaigns where we target the most qualitative leads in your area of work.",
+        "url": "",
+        "img": "/images/services/service-img-1.png"
+      },
+      {
+        "order": false,
+        "header": "",
+        "title": "LinkedIn",
+        "content": "With advanced targeting tools and powerful strategies, we identify and reach your ideal customers.",
+        "url": "",
+        "img": "/images/services/service-img-2.png"
+      }
+    ]
+}
