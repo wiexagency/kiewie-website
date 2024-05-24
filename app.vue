@@ -8,6 +8,7 @@
     <InfoPage></InfoPage>
     <TrailBanner></TrailBanner>
     <CustomerReview></CustomerReview>
+    <AboutUs></AboutUs>
     <br>
   </div>
 </div>

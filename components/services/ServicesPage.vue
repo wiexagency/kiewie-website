@@ -28,6 +28,6 @@ onMounted(fetchData);
         </div>
     </div>
     <div v-for="service in jsonData?.services">
-      <ConnectView :order=service?.order :service="service"></ConnectView>
+      <ConnectView :order=service?.order :view="service"></ConnectView>
     </div>
 </template>
