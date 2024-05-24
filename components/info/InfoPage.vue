@@ -16,7 +16,7 @@ onMounted(fetchData);
 </script>
 
 <template>
-  <div class="w-full flex justify-center items-center mt-6">
+  <div class="w-full flex justify-center items-center mt-16">
     <div class="max-w-6xl">
     <div class="text-center">
       <h6 class="text-orange-600"> {{ jsonData?.header }} </h6>
@@ -25,7 +25,7 @@ onMounted(fetchData);
       </div>
     </div>
   </div>
-  <div class="mt-10 w-4/5 mx-auto flex justify-between">
+  <div class="mt-16 w-4/5 mx-auto flex justify-between">
     <div v-for="info_card in jsonData?.info_cards" >
       <InfoCard :info_card class="mx-2"></InfoCard>
     </div>

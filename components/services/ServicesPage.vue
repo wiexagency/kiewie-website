@@ -18,7 +18,7 @@ onMounted(fetchData);
 </script>
 
 <template>
-    <div class="w-full flex justify-center items-center mt-6">
+    <div class="w-full flex justify-center items-center mt-20">
         <div class="max-w-6xl">
             <div class="text-center">
                 <h6 class="text-orange-600"> {{ jsonData?.header }} </h6>
@@ -27,7 +27,9 @@ onMounted(fetchData);
             </div>
         </div>
     </div>
-    <div v-for="service in jsonData?.services">
-      <ConnectView :order=service?.order :view="service"></ConnectView>
+    <div class="mt-16">
+      <div v-for="service in jsonData?.services">
+        <ConnectView :order=service?.order :view="service"></ConnectView>
+      </div>
     </div>
 </template>
