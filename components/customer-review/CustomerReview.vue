@@ -1,5 +1,5 @@
 <script setup>
-import ReviewCard from './review-card.vue';
+import ReviewCard from './ReviewCard.vue';
 
 
 const jsonData = ref(null);

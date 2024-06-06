@@ -9,7 +9,9 @@
         "title": "Email",
         "content": "Activating email campaigns where we target the most qualitative leads in your area of work.",
         "url": "",
-        "img": "/images/services/service-img-1.png"
+        "img": "/images/services/service-img-1.png",
+        "button": "Read More ->"
+
       },
       {
         "order": false,
@@ -17,7 +19,8 @@
         "title": "LinkedIn",
         "content": "With advanced targeting tools and powerful strategies, we identify and reach your ideal customers.",
         "url": "",
-        "img": "/images/services/service-img-2.png"
+        "img": "/images/services/service-img-2.png",
+        "button": "Read More ->"
       }
     ]
 }

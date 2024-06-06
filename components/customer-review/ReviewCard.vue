@@ -30,7 +30,7 @@ const props = defineProps({
 
     <!-- Rating -->
     <div class="w-full mt-auto">
-      <div class="flex items-center bg-blue-100 justify-between py-2 px-2">
+      <div :style="{ backgroundColor: '#F1FBFF' }" class="flex items-center justify-between py-2 px-2 m">
         <div>
           <p>Rated ({{ review?.rating }} of 5)</p>
         </div>

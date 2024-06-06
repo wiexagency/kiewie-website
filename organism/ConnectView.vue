@@ -4,6 +4,10 @@ const props = defineProps({
     type: Boolean,
     default: true
   },
+  contentSize: {
+    type: String,
+    default: "22px"
+  },
   view: Object
 });
 
@@ -18,9 +22,9 @@ const props = defineProps({
     <div class="w-1/2 p-4">
       <h6 class="text-orange-600"> {{ view?.header }} </h6>
       <h1 class="text-6xl font-bold mb-4"> {{ view?.title }} </h1>
-      <p> {{ view?.content }} </p>
+      <p :style="{ fontSize: contentSize }" class="font-thin" v-html="view?.content"></p>
       <button class="mt-10 bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-full">
-        Read More ->
+        <a :href="view?.url">{{ view?.button }}</a>
       </button>
     </div>
   </div>
@@ -28,9 +32,9 @@ const props = defineProps({
     <div class="w-1/2 p-4">
       <h6 class="text-orange-600"> {{ view?.header }} </h6>
       <h1 class="text-6xl font-bold mb-4"> {{ view?.title }} </h1>
-      <p> {{ view?.content }} </p>
-      <button class="mt-10 bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-full">
-        Read More ->
+      <p :style="{ fontSize: contentSize }" class="font-thin" v-html="view?.content"></p>
+      <button  class="mt-10 bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-full">
+        <a :href="view?.url">{{ view?.button }}</a>
       </button>    
     </div>
 

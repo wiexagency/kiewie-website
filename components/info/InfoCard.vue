@@ -21,7 +21,7 @@ const props = defineProps({
     </div>
 
     <!-- Content -->
-    <div class="w-full h-[50%] text-center">
+    <div class="w-full h-[50%] text-center font-thin">
       <p>{{ info_card?.content }}</p>
     </div>
   </div>

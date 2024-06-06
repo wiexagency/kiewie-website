@@ -1,0 +1,50 @@
+{
+    "header": "OUR PRICES",
+    "title": "Our Pricing",
+    "content": "Choose a powerful email campaign, a professional LinkedIn activation or go for the best of both!",
+    "bundles": [
+        {
+            "type": "Email package",
+            "img": "/images/pricing_icons/email.png",
+            "shortDescription": " Receive fresh leads acquired daily through our email campaigns",
+            "pricing": "€995",
+            "leads": "200",
+            "details": [
+                "Outreach with an opening rate of 90%",
+                "Access to the largest email database in the Benelux",
+                "First month free!"
+            ],
+            "url": "",
+            "button": "Get started ->"
+        },
+        {
+            "type": "LinkedIn package",
+            "img": "/images/pricing_icons/linkedIn.png",
+            "shortDescription": "Quickly reach the ideal customer with advanced targeting tools",
+            "pricing": "€1299",
+            "leads": "200",
+            "details": [
+                "Activate decision makers within the B2B market with targeted and inspiring content.",
+                "Increase your brand visibility & your conversions.",
+                "First month free!*"
+            ],
+            "url": "",
+            "button": "Get started ->"
+        },
+        {
+            "type": "Combo package",
+            "img": "/images/pricing_icons/linkedIn.png",
+            "shortDescription": " Receive fresh leads acquired daily through our email campaigns",
+            "pricing": "€995",
+            "leads": "200",
+            "details": [
+                "The most effective approach to engage potential customers with your brand.",
+                "The highest visibility and conversions for your products and services.",
+                "First month free!*"
+            ],
+            "url": "",
+            "button": "Get started ->"
+        }
+    ],
+    "endText": "*And best of all: you can now use our services for free for one month. Contact us for terms and conditions."
+}

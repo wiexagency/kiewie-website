@@ -19,5 +19,5 @@ onMounted(fetchData);
 </script>
 
 <template>
-  <ConnectView :view="jsonData"></ConnectView>
+  <ConnectView :view="jsonData" contentSize="16px"></ConnectView>
 </template>
