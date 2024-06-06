@@ -1,15 +1,18 @@
+<script setup lang="ts">
+</script>
+
 <template>
     <div class="w-full flex justify-center">
         <div class="w-65%">
-            <MainPage></MainPage>
-            <Collaborators></Collaborators>
-            <ServicesPage></ServicesPage>
-            <InfoPage></InfoPage>
-            <TrailBanner></TrailBanner>
-            <CustomerReview></CustomerReview>
-            <AboutUs></AboutUs>
-            <Pricing></Pricing>
-            <br>
+            <HomeMainPage></HomeMainPage>
+            <HomeCollaborators></HomeCollaborators>
+            <HomeServicesPage></HomeServicesPage>
+            <HomeInfoPage></HomeInfoPage>
+            <HomeTrailBanner></HomeTrailBanner>
+            <HomeCustomerReview></HomeCustomerReview>
+            <HomeAboutUs></HomeAboutUs>
+            <HomePricing></HomePricing>
+
         </div>
     </div>
 </template>
