@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="w-full flex justify-center">
+    <div class="flex justify-center">
         <div class="w-65%">
             <HomeMainPage></HomeMainPage>
             <HomeCollaborators></HomeCollaborators>

@@ -1,3 +1,7 @@
 <template>
-    <p>contact page</p>
+    <div class="w-full flex justify-center">
+        <div class="w-65%">
+            <p>contact page</p>
+        </div>
+    </div>
 </template>
