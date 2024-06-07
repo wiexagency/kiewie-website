@@ -3,7 +3,7 @@
 
 <template>
     <div class="flex justify-center">
-        <div class="w-65%">
+        <div>
             <HomeMainPage></HomeMainPage>
             <HomeCollaborators></HomeCollaborators>
             <HomeServicesPage></HomeServicesPage>
@@ -12,7 +12,6 @@
             <HomeCustomerReview></HomeCustomerReview>
             <HomeAboutUs></HomeAboutUs>
             <HomePricing></HomePricing>
-
         </div>
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <div class="w-full flex justify-center">
-        <div class="w-65%">
+        <div>
             <p>Why us page</p>
         </div>
     </div>
