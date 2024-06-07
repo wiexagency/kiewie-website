@@ -1,13 +1,13 @@
 <template>
     <ul class="flex space-x-4">
         <li>
-            <NuxtLink to="/news" class="hover:text-gray-800">News</NuxtLink>
+            <NuxtLink to="/news">News</NuxtLink>
         </li>
         <li>
-            <NuxtLink to="/media-kit" class="hover:text-gray-800">Media kit</NuxtLink>
+            <NuxtLink to="/media-kit">Media kit</NuxtLink>
         </li>
         <li>
-            <NuxtLink to="/press" class="hover:text-gray-800">Press</NuxtLink>
+            <NuxtLink to="/press">Press</NuxtLink>
         </li>
     </ul>
 </template>
