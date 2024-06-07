@@ -19,7 +19,7 @@
 
         <!-- Section 5: Copyright and Section 6: News, Media kit, Press -->
         <div class="container mx-auto flex justify-between items-center text-gray-500">
-            <p>&copy; 2024 <span class="text-blue-500">Kiewie</span>. All rights reserved.</p>
+            <FooterCopyright/>
             <FooterResources/>
         </div>
     </footer>
