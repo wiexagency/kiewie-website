@@ -36,7 +36,7 @@ onMounted(fetchData);
     </div>
 
     <div class="w-1/2 flex justify-center items-center rounded">
-      <img :src="imgSource" alt="Image" class="bg-blue-300 w-90 h-90 rounded-t-md">
+      <img :src="jsonData?.img" alt="Image" class="bg-blue-300 w-90 h-90 rounded-t-md">
     </div>
   </div>
 </template>
