@@ -1,6 +1,5 @@
 <template>
-  <header class="bg-white py-4 border-b">
-    <div class="container mx-auto flex justify-between items-center">
+    <div class="bg-white py-4 border-b container mx-auto flex justify-between items-center">
       <div>
         <img src="/images/logo.png" alt="Kiwi Logo" class="h-10" />
       </div>
@@ -22,7 +21,6 @@
         </button>
       </div>
     </div>
-  </header>
 </template>
 
 <script setup>

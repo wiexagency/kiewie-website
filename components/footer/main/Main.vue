@@ -6,6 +6,5 @@
         <p class="text-gray-500">
             At Kiewie, we love to connect companies with the right customers.
         </p>
-
     </div>
 </template>

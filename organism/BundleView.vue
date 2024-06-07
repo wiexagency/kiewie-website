@@ -33,8 +33,8 @@ const props = defineProps({
         </div>
 
         <button class="w-full mt-10 bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-full">
-    <a :href="bundle?.url" class="block text-center w-full h-full">{{ bundle?.button }}</a>
-</button>
+            <a :href="bundle?.url" class="block text-center w-full h-full">{{ bundle?.button }}</a>
+        </button>
 
     </div>
 </template>
