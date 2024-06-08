@@ -1,14 +1,4 @@
 <script setup>
-const props = defineProps({
-  order: {
-    type: Boolean,
-    default: true
-  },
-  service_number: Number
-});
-
-const imgSource = `/images/trail-banner.png`
-
 const jsonData = ref(null);
 
 const fetchData = async () => {
@@ -21,7 +11,6 @@ const fetchData = async () => {
 };
 
 onMounted(fetchData);
-
 </script>
 
 <template>
