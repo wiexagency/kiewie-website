@@ -15,7 +15,7 @@ onMounted(fetchData);
 </script>
 
 <template>
-    <div class="w-full flex justify-center items-center mt-20">
+    <div class="w-full flex justify-center mt-20">
         <div class="max-w-6xl">
             <div class="text-center">
                 <h6 class="text-orange-600"> {{ jsonData?.header }} </h6>

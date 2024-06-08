@@ -5,11 +5,11 @@ const props = defineProps({
 
 </script>
 <template>
-    <div style="height: 450px;" class="w-[400px] rounded-lg shadow-lg flex flex-col justify-between items-center p-4">
-        <div class="flex-grow">
-            <div class="mb-4 flex flex-row w-full">
+    <div style="height: 450px;" class="w-[400px] rounded-lg shadow-lg flex flex-col justify-between p-4">
+        <div>
+            <div class="mb-4 flex">
                 <div>
-                    <img :src="bundle?.img" alt="Image" class="w-8 h-8 object-cover rounded-t-lg">
+                    <img :src="bundle?.img" alt="Image" class="w-8 h-8 rounded-t-lg">
                 </div>
             </div>
 
@@ -33,8 +33,7 @@ const props = defineProps({
         </div>
 
         <button class="w-full mt-10 bg-blue-400 hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-full">
-            <a :href="bundle?.url" class="block text-center w-full h-full">{{ bundle?.button }}</a>
+            <a :href="bundle?.url" class="text-center w-full h-full">{{ bundle?.button }}</a>
         </button>
-
     </div>
 </template>

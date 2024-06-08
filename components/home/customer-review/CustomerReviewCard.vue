@@ -6,9 +6,9 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="w-[400px] h-[350px] rounded-lg shadow-lg flex flex-col justify-between items-center p-4">
+  <div class="w-[400px] h-[350px] rounded-lg shadow-lg flex flex-col p-4">
     <div>
-      <div class="flex flex-row w-full mb-auto">
+      <div class="flex">
         <!-- Customer image -->
         <div class="mr-4">
           <img :src="review?.img" alt="Image" class="w-14 h-14 object-cover rounded-t-lg">
@@ -29,8 +29,8 @@ const props = defineProps({
     </div>
 
     <!-- Rating -->
-    <div class="w-full mt-auto">
-      <div :style="{ backgroundColor: '#F1FBFF' }" class="flex items-center justify-between py-2 px-2 m">
+    <div class="mt-auto">
+      <div :style="{ backgroundColor: '#F1FBFF' }" class="flex justify-between py-2 px-2">
         <div>
           <p>Rated ({{ review?.rating }} of 5)</p>
         </div>

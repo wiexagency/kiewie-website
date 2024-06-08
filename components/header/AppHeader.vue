@@ -5,7 +5,7 @@
       </div>
 
       <nav class="text-center">
-        <ul class="flex justify-center space-x-6">
+        <ul class="flex space-x-6">
           <li><NuxtLink to="/" class="cursor-pointer hover:text-orange-300">Home</NuxtLink></li>
           <li><NuxtLink to="/services" class="cursor-pointer hover:text-orange-300">Services</NuxtLink></li>
           <li><NuxtLink to="/why-us" class="cursor-pointer hover:text-orange-300">Why us?</NuxtLink></li>

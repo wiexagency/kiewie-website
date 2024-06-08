@@ -25,7 +25,7 @@ onMounted(fetchData);
 </script>
 
 <template>
-  <div class="container mx-auto flex justify-center items-center text-white rounded-3xl mt-40" style="background-color: #00003C;">
+  <div class="container mx-auto flex items-center text-white rounded-3xl mt-40" style="background-color: #00003C;">
     <div class="w-1/2 p-4">
       <h6 class="text-orange-600"> {{ jsonData?.header }} </h6>
       <h1 class="text-6xl font-bold mb-4" v-html="jsonData?.title"></h1>
@@ -35,7 +35,7 @@ onMounted(fetchData);
       </button>
     </div>
 
-    <div class="w-1/2 flex justify-center items-center rounded">
+    <div class="w-1/2 flex justify-center">
       <img :src="jsonData?.img" alt="Image" class="bg-blue-300 w-90 h-90 rounded-t-md">
     </div>
   </div>
