@@ -6,7 +6,7 @@
         <div>
             <HomeMainPage></HomeMainPage>
             <HomeCollaborators></HomeCollaborators>
-            <HomeServicesPage></HomeServicesPage>
+            <HomeServices></HomeServices>
             <HomeInfo></HomeInfo>
             <HomeTrailBanner></HomeTrailBanner>
             <HomeCustomerReview></HomeCustomerReview>
