@@ -15,7 +15,7 @@ onMounted(fetchData);
 
 <template>
   <div class="flex justify-center items-center">
-    <div class="w-1/2 max-w-lg ">
+    <div class="max-w-lg">
       <h6 class="text-orange-600"> {{ jsonData?.header }} </h6>
       <h1 class="text-6xl font-bold mb-4"> {{ jsonData?.title }} </h1>
       <p> {{ jsonData?.content }} </p>
@@ -24,7 +24,7 @@ onMounted(fetchData);
       </button>
     </div>
 
-    <div class="w-1/2">
+    <div>
       <img :src="jsonData?.img" alt="Image" class="w-full h-auto">
     </div>
   </div>
