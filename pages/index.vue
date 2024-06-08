@@ -7,7 +7,7 @@
             <HomeMainPage></HomeMainPage>
             <HomeCollaborators></HomeCollaborators>
             <HomeServicesPage></HomeServicesPage>
-            <HomeInfoPage></HomeInfoPage>
+            <HomeInfo></HomeInfo>
             <HomeTrailBanner></HomeTrailBanner>
             <HomeCustomerReview></HomeCustomerReview>
             <HomeAboutUs></HomeAboutUs>

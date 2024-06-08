@@ -1,7 +1,4 @@
 <script setup>
-import BundleView from '~/organism/BundleView.vue';
-
-
 const jsonData = ref(null);
 
 const fetchData = async () => {
@@ -28,7 +25,7 @@ onMounted(fetchData);
   </div>
   <div class="mt-20 w-4/5 mx-auto flex justify-between">
     <div v-for="bundle in jsonData?.bundles">
-      <BundleView :bundle></BundleView>
+      <HomePricingCard :bundle></HomePricingCard>
     </div>
   </div>
 </template>

@@ -1,6 +1,5 @@
 <script setup>
-import ReviewCard from './ReviewCard.vue';
-
+import CustomerReviewCard from './CustomerReviewCard.vue';
 
 const jsonData = ref(null);
 
@@ -28,7 +27,7 @@ onMounted(fetchData);
   </div>
   <div class="mt-20 w-4/5 mx-auto flex justify-between">
     <div v-for="review in jsonData?.reviews">
-      <ReviewCard :review="review" ></ReviewCard>
+      <CustomerReviewCard :review="review" ></CustomerReviewCard>
     </div>
   </div>
 </template>
