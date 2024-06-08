@@ -19,7 +19,7 @@ const props = defineProps({
       <img :src="view?.img" alt="Image" class="w-90 h-90">
     </div>
 
-    <div class="w-1/2 p-4">
+    <div class="w-1/2">
       <h6 class="text-orange-600"> {{ view?.header }} </h6>
       <h1 class="text-6xl font-bold mb-4"> {{ view?.title }} </h1>
       <p :style="{ fontSize: contentSize }" class="font-thin" v-html="view?.content"></p>
@@ -29,7 +29,7 @@ const props = defineProps({
     </div>
   </div>
   <div v-else class="container flex items-center">
-    <div class="w-1/2 p-4">
+    <div class="w-1/2">
       <h6 class="text-orange-600"> {{ view?.header }} </h6>
       <h1 class="text-6xl font-bold mb-4"> {{ view?.title }} </h1>
       <p :style="{ fontSize: contentSize }" class="font-thin" v-html="view?.content"></p>
