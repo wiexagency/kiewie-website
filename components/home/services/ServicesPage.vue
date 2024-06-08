@@ -1,8 +1,5 @@
 <script setup>
 import ConnectView from '~/organism/ConnectView.vue';
-
-const imageSrc = '/images/hero-img.png';
-
 const jsonData = ref(null);
 
 const fetchData = async () => {
