@@ -10,7 +10,6 @@ const fetchData = async () => {
   try {
     const response = await fetch('/data/about-us.json');
     jsonData.value = await response.json();
-    console.log(jsonData.value);
   } catch (error) {
     console.error('Error fetching JSON data:', error);
   }
