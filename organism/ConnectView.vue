@@ -14,7 +14,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div v-if="order" class="container mx-auto flex items-center">
+  <div v-if="order" class="container flex items-center">
     <div class="w-1/2 flex justify-center ">
       <img :src="view?.img" alt="Image" class="w-90 h-90">
     </div>
@@ -28,7 +28,7 @@ const props = defineProps({
       </button>
     </div>
   </div>
-  <div v-else class="container mx-auto flex items-center">
+  <div v-else class="container flex items-center">
     <div class="w-1/2 p-4">
       <h6 class="text-orange-600"> {{ view?.header }} </h6>
       <h1 class="text-6xl font-bold mb-4"> {{ view?.title }} </h1>
