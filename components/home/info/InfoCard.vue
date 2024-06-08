@@ -15,7 +15,7 @@ const props = defineProps({
 
     <!-- Title -->
     <div class="mt-4 mb-2">
-      <h1 class="text-3xl font-semibold capitalize text-center" v-html="info_card?.title">
+      <h1 class="text-3xl font-semibold capitalize leading- text-center" v-html="info_card?.title">
       </h1>
     </div>
 
