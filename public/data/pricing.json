@@ -2,6 +2,7 @@
     "header": "OUR PRICES",
     "title": "Our Pricing",
     "content": "Choose a powerful email campaign, a professional LinkedIn activation or go for the best of both!",
+    "endText": "*And best of all: you can now use our services for free for one month. Contact us for terms and conditions.",
     "bundles": [
         {
             "type": "Email package",
@@ -45,6 +46,5 @@
             "url": "",
             "button": "Get started ->"
         }
-    ],
-    "endText": "*And best of all: you can now use our services for free for one month. Contact us for terms and conditions."
+    ]
 }
