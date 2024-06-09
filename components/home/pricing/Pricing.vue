@@ -29,6 +29,6 @@ onMounted(fetchData);
     </div>
   </div>
   <div class="text-center font-extralight mt-10">
-    <p> {{ jsonData.endText }}</p>
+    <p> {{ jsonData?.endText }}</p>
   </div>
 </template>
